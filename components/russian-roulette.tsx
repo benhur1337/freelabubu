@@ -4,7 +4,7 @@
 import {useState} from 'react'
 
 function getRandomInt(max:number) {
-    return Math.floor(Math.random() * max);
+    return Math.floor(Math.random() * max)+1;
   }
   
 
@@ -13,7 +13,7 @@ export function RussianRoulette(){
     const [dead, setDead] = useState(0)
     
     function gamble(){
-        setDead(getRandomInt(5))
+        setDead(getRandomInt(6))
     }
     
     return(
