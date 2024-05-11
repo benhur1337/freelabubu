@@ -35,7 +35,7 @@ export function Navbar(){
 
     return (
         <div>
-            <div className='mt-0 p-6 pl-0 flex flex-row items-center justify-evenly border-b-white rounded-[1100px]  bg-black border-0 border-b-2 max-w-[1100px] mx-auto'>
+            <div className='select-none mt-0 p-6 pl-0 flex flex-row items-center justify-evenly border-b-white rounded-[1100px]  bg-black border-0 border-b-2 max-w-[1100px] mx-auto'>
                 <Link href='/'>
                     <Image src='/logo.png' className='hover:scale-110 duration-500' height={200} width={200} alt='logo'></Image>
                 </Link>

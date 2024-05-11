@@ -1,7 +1,7 @@
 import { Tests } from "@/components/page";
 export default function page(){
     return(
-        <div className="flex items-center justify-center w-[100vw] h-[100vh]">
+        <div className="flex items-center justify-center w-[100%] mt-[5%]">
         <Tests></Tests>
         </div>
     )
