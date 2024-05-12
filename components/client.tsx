@@ -29,6 +29,10 @@ export function Navbar(){
         {
             labubu:'ABOUT US ඞඞඞ',
             href:'/aboutus'
+        },
+        {
+            labubu:'Theme Changer',
+            href:'/theme'
         }
         
     ]
