@@ -1,6 +1,7 @@
 import { Heading } from "@/components/aboutus"
 import { Title } from "@/components/aboutus"
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Page(){
