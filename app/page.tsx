@@ -8,6 +8,7 @@ export default function Home() {
       <Link href='/'>
         <Image src='/logo.png' className='hover:scale-110 duration-500' height={200} width={200} alt='logo'></Image>
       </Link>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
       <br></br>
       <div className="font-bold">Our Promotional Video</div>
       <video width="640" height="480" controls>
