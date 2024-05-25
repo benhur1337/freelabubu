@@ -13,9 +13,9 @@ export default function Home() {
       </div>
       <div>
       <div className="flex flex-row justify-evenly mt-10">
-        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none">Russian Roulette</div>
-        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none">Black Jack</div>
-        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none">Slot</div>
+        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none hover:w-56 hover:h-56 hover:max-w-56 hover:max-h-56 hover:border-none duration-500 hover:bg-gradient-to-tl hover:from-indigo-950 hover:to-purple-800">Russian Roulette <br /><div className="text-sm duration-500">6 players 1 revolver. Players take turn to shoot themselves in the head if they die their bet will be split into other players' bet.</div></div>
+        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none hover:w-56 hover:h-56 hover:max-w-56 hover:max-h-56 hover:border-none duration-500 hover:bg-gradient-to-tl hover:from-indigo-950 hover:to-purple-800">Black Jack <br /><div className="text-sm duration-500">Both players are given a card. A player chose to get more cards or stop. The second player does the same. You must get higher card than the other player without exceeding 21.(2p)</div></div>
+        <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none hover:w-56 hover:h-56 hover:max-w-56 hover:max-h-56 hover:border-none duration-500 hover:bg-gradient-to-tl hover:from-indigo-950 hover:to-purple-800">Slot<div className="text-sm duration-500">Place in money. If you get same 3 numbers, you get double the amount of your bet. If you hit the 777 jackpot you'll get 5 times the amount of your bet.</div></div>
         </div>
       </div>
     </div>

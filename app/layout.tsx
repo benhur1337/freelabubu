@@ -16,11 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-black w-[100vw] h-[100vh] text-white">
+    <html lang="en" className="bg-black w-[100vw] h-[100vh] text-white overflow-x-hidden">
       <body className={inter.className}>
         <div className="h-[100%]">
         <Navbar/>
         {children}
+        </div>
+        <div className="flex flex-col justify-center items-center py-[5%]">
+          <div className="text-4xl">More</div>
+          <div>
+
+          </div>
         </div>
       </body>
     </html>
