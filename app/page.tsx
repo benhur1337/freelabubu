@@ -16,9 +16,9 @@ export default function Home() {
         ></Image>
       </Link>
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-      <div className="font-bold">Our Promotional Video</div>
+      <div className="font-bold p-6">Our Promotional Video</div>
       <video width="640" height="480" controls>
-        <source src={"/Freelabubu.mp4"} type="video/mp4" />
+        <source src={"/Freelabubu.mp4"} type="video/mp4" className="item-center"/>
       </video>
     </div>
   );
