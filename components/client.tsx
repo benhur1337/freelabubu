@@ -31,8 +31,8 @@ export function Navbar(){
             href:'/aboutus'
         },
         {
-            labubu:'Theme Changer',
-            href:'/theme'
+            labubu:'Login',
+            href:'/login'
         }
         
     ]
