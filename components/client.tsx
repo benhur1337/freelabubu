@@ -27,7 +27,7 @@ export function Navbar(){
             href:'/gamble'
         },
         {
-            labubu:'ABOUT US ඞඞඞ',
+            labubu:'Documentation',
             href:'/aboutus'
         },
         {

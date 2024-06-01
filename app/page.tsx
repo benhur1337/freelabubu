@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="justify-center">
+    <div className="flex flex-col justify-center w-screen">
       <div className="select-none flex items-center mt-[5%] flex-col">
         <div className="select-none text-9xl bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text font-extrabold">
           FreeLabubu
@@ -20,20 +20,42 @@ export default function Home() {
           <div className="border-4 rounded-xl p-4 text-xl pt-2 w-52 h-52 max-w-52 max-h-52 select-none hover:w-56 hover:h-56 hover:max-w-56 hover:max-h-56 hover:border-none duration-500 hover:bg-gradient-to-tl hover:from-indigo-950 hover:to-purple-800">Slot<div className="text-sm duration-500">Place in money. If you get same 3 numbers, you get double the amount of your bet. If you hit the 777 jackpot you'll get 5 times the amount of your bet.</div></div>
         </div>
       </div>
-      <Link href="/">
+      <div className="flex flex-row items-center justify-evenly p-12">
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            className="hover:scale-110 duration-500"
+            height={300}
+            width={300}
+            alt="logo"
+          ></Image>
+        </Link>
+        <div className="font-bold p-6 text-2xl">Our Promotional Video</div>
+        <video width="640" height="480" className="border rounded-md shadow-md" controls>
+          <source src={"/Freelabubu.mp4"} type="video/mp4" className="item-center" />
+        </video>
+      </div>
+      <div className="flex flex-row items-center justify-evenly p-12">
+        <div className="select-none text-4xl bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text font-extrabold">
+          Our Motivation Texts
+        </div>
+      </div>
+      <div className="flex flex-row items-center justify-evenly p-12">
         <Image
-          src="/logo.png"
-          className="hover:scale-110 duration-500"
-          height={200}
-          width={200}
-          alt="logo"
+          src="/1.jpg"
+          className="hover:scale-110 duration-500 p-6"
+          height={700}
+          width={700}
+          alt="1"
         ></Image>
-      </Link>
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-      <div className="font-bold p-6">Our Promotional Video</div>
-      <video width="640" height="480" controls>
-        <source src={"/Freelabubu.mp4"} type="video/mp4" className="item-center" />
-      </video>
+        <Image
+          src="/2.png"
+          className="hover:scale-110 duration-500 p-6"
+          height={700}
+          width={700}
+          alt="2"
+        ></Image>
+      </div>
     </div>
   );
 }

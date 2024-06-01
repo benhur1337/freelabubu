@@ -17,6 +17,10 @@ export default function SignupPage() {
             <label for="password" className="text-sm font-medium mb-2">Password</label>
             <input type="password" id="password" name="password" className="shadow-sm p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 block w-full" required />
           </div>
+          <div className="flex flex-col">
+            <label for="password" className="text-sm font-medium mb-2">Phone numbers</label>
+            <input type="number" id="numbewr" name="phone" className="shadow-sm p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 block w-full" required />
+          </div>
           <input type="checkbox" name = "finished" required></input>
           <label for="terms" className="ml-2 text-sm">I agree to the </label>
           <button href="/policy" className="">term of use</button>
