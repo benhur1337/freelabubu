@@ -1,6 +1,6 @@
 import { Title } from "@/components/aboutus"
 
-export default function () {
+export default function Page() {
     return (
         <div>
             <h2 className="text-4xl font-bold text-center p-6">Deposit</h2>

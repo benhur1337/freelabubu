@@ -32,7 +32,7 @@ export default function Home() {
         </Link>
         <div className="font-bold p-6 text-2xl">Our Promotional Video</div>
         <video width="640" height="480" className="border rounded-md shadow-md" controls>
-          <source src={"/Freelabubu.mp4"} type="video/mp4" className="item-center" />
+          <source src={"/Freelabubu.mp4"} type="video/mp4" className="item-center" loop autoPlay/>
         </video>
       </div>
       <div className="flex flex-row items-center justify-evenly p-12">
@@ -56,6 +56,7 @@ export default function Home() {
           alt="2"
         ></Image>
       </div>
+      <Link className="text-white bg-black py-1 px-2 rounded-md text-xl text-center border-white" href="/contacts">Social Media</Link>
     </div>
   );
 }
