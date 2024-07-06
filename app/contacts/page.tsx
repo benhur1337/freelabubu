@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Page() {
   return (
     <div className="w-screen flex flex-col items-center justify-center">
@@ -27,5 +28,4 @@ export default function Page() {
         </div>
       </div>
     </div>
-  );
-}
+  
