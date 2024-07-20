@@ -18,7 +18,7 @@ export default function Page() {
             <a href="https://www.instagram.com/freelabubuofficial/" className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded" target="_blank">
               Instagram
             </a>
-            <a href="https://www.linkedin.com/in/freelabubu-32b80a313?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAE-tFVMBJjDmJlhrW9MmnliQWiprLGFqe8I&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bdvkt8xgeTNerEyDDnkv7mw%3D%3D" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" target="_blank">
+            <a href="https://www.linkedin.com/in/freelabubu-32b80a313?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAE-tFVMBJjDmJlhrW9MmnliQWiprLGFqe8I&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bdvkt8xgeTNerEyDDnkv7mw%3D%3D" className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" target="_blank">
               LinkedIn
             </a>
             <a href="https://discord.gg/fkf9Sc3qWz" className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" target="_blank">
@@ -28,4 +28,4 @@ export default function Page() {
         </div>
       </div>
     </div>
-  
+  )}
