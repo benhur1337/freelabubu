@@ -9,7 +9,7 @@ export default function Home() {
           FreeLabubu
         </div>
         <div className="select-none text-4xl min-h-12 bg-gradient-to-tr from-blue-400 to-purple-950 bg-clip-text font-bold text-transparent">
-          Best gambling site in the world.
+          Best gambling site in 2024 with over 1 MILLION ACTIVE PLAYERS RIGHT NOW.
         </div>
         <br></br>
       </div>
@@ -56,7 +56,7 @@ export default function Home() {
           alt="2"
         ></Image>
       </div>
-      <Link className="text-white bg-black py-1 px-2 rounded-md text-xl text-center border-white" href="/contacts">Social Media</Link>
+      <Link className="text-white bg-gray-900 py-1 px-2 text-xl text-center border-white flex flex-row justify-center" href="/contacts">Social Media</Link>
     </div>
   );
 }
